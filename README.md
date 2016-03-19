@@ -6,10 +6,8 @@ By default You will see first console.log "init done", that means everything wor
 
 ## Usage
 
-1. Insert script in ```<head>```
-```
-<script src="only-for-develope.js"></script>
-```
+1. Insert script in ```<head>``` ``` <script src="only-for-develope.js"></script>```
+
 2. Console.log something in your (main?).js file
 ```
 console.log('Hello world!');
