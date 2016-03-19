@@ -14,7 +14,7 @@ No jQuery required.
 
 ## Usage
 
-1. Insert script in ```<head>``` tag: 
+1. Insert the script **first** in ```<head>``` tag: 
 ``` <script src="only-for-develope.js"></script>```
 2. Console.log something in your (main?).js file
 ```
