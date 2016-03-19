@@ -2,6 +2,7 @@
 Ability to see console log via hand gadgets like smartphones and tabs.
 
 Just include the script "only-for-develope" in your ```<head>``` tag and that's it! 
+
 No jQuery required.
 
 ## How it works
