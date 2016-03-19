@@ -42,7 +42,10 @@ head.appendChild(style);
 
 /* on click */
 el.addEventListener("click", function(){
-    //future ability
+    el.innerHTML = 'Cleared..';
+    setTimeout(function(){
+        el.innerHTML = '';
+    },1000);
 });
 
 /* check */
