@@ -9,6 +9,7 @@ No jQuery required.
 1. First You will see the fixed block with violet background and white text inside "init done", that means everything works fine.
 2. Every console.log or console.error message will be displayed in that block
 3. Click on that block will clear it (remove all previous messages)
+4. To change block styles just rewrite css rules to ```#develope-mode```
 
 ## Usage
 
