@@ -1,6 +1,6 @@
 
 /* create html block */
-var el =  document.createElement('span')
+var el =  document.createElement('span');
 el.id = 'develope-mode';
 document.body.appendChild(el);
 
@@ -17,18 +17,18 @@ document.body.appendChild(el);
         }
     }
     if(window.console && console.error){
-        var old = console.error;
+        var old_error = console.error;
         console.error = function(text){
             var develope = document.getElementById('develope-mode'),
                 mess = document.createElement('div');
             mess.innerHTML = '<span style="color: red">'+text+'</span><br />';
             develope.appendChild(mess);
-            old.apply(this, arguments)
+            old_error.apply(this, arguments)
         }
     }
 })();
 /* styles */
-var css = '#develope-mode {background-color: blueviolet;color: #ffffff;font-weight: bold;position: fixed;top: 50px;right: 0;z-index: 99999;padding: 20px;opacity: 0.9;max-height: 150px;overflow: scroll;}',
+var css = '#develope-mode {background-color: blueviolet;color: #ffffff;font-weight: bold;position: fixed;top: 50px;right: 0;z-index: 99999;padding: 20px;opacity: 0.9;max-height: 150px;overflow: auto;}',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
 
